@@ -1,0 +1,93 @@
+{
+  "name": "llm-guidelines",
+  "version": "1.0.0",
+  "description": "Operating rules for LLM coding agents — reduces silent assumptions, overbuilding, scope creep, contract breaks, premature optimization, fake verification, and unsupervised output",
+  "type": "module",
+  "bin": {
+    "llm-guidelines": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "agent",
+    "agentic",
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "ai-assistant",
+    "ai-coding",
+    "aider",
+    "antigravity",
+    "augment",
+    "automation",
+    "best-practices",
+    "claude",
+    "cli",
+    "cline",
+    "code-generation",
+    "code-quality",
+    "code-review",
+    "codebuddy",
+    "codex",
+    "coding",
+    "coding-agent",
+    "coding-assistant",
+    "coding-standards",
+    "context-engineering",
+    "copilot",
+    "cursor",
+    "developer-experience",
+    "developer-tools",
+    "devtools",
+    "gemini",
+    "generative-ai",
+    "guardrails",
+    "guidelines",
+    "instructions",
+    "javascript",
+    "kilo",
+    "llm",
+    "llmops",
+    "nodejs",
+    "openai",
+    "opencode",
+    "productivity",
+    "programming",
+    "prompt",
+    "prompt-engineering",
+    "prompting",
+    "qwen",
+    "refactoring",
+    "rules",
+    "skill",
+    "software-engineering",
+    "system-prompt",
+    "trae",
+    "typescript",
+    "windsurf",
+    "workflow"
+  ],
+  "author": "uhl.solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhl-solutions/llm-guidelines.git"
+  },
+  "homepage": "https://github.com/uhl-solutions/llm-guidelines#readme",
+  "bugs": {
+    "url": "https://github.com/uhl-solutions/llm-guidelines/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0"
+  }
+}
